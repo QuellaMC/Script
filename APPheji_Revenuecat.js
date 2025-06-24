@@ -6,8 +6,8 @@ TG群组：https://t.me/GudingChat
 Revenuecat解锁合集，已解锁APP及下载地址请见说明：https://github.com/Guding88/Script/blob/main/Readme.md
 
 [rewrite_local]
-^https?:\/\/api\.(revenuecat|rc-backup)\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
-//^https?:\/\/api\.(revenuecat|rc-backup)\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
+^https?:\/\/api\.(revenuecat|rc-backup)\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/QuellaMC/Script/main/APPheji_Revenuecat.js
+//^https?:\/\/api\.(revenuecat|rc-backup)\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/QuellaMC/Script/main/APPheji_Revenuecat.js
 
 [MITM]
 hostname = api.revenuecat.com, api.rc-backup.com
@@ -195,6 +195,11 @@ if (typeof $response == "undefined") {
     
     //群友发的，不知道从谁那摘出来的
     'ScreenRecordCase':{ name: 'Premium', id: 'me.fandong.ScreenRecordCase.Ultra'},
+
+    // newly added
+    'grow':{name:'grow.pro', id: 'grow_299_1m'},
+    'Cloudre':{name:'all_pro_features', id: 'org.cloudreve.Cloudreve.Annual'},
+    
 
 
     
